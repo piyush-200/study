@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const axiosInstance = axios.create({baseURL: "https://client-server-22221.onrender.com"});
+export const axiosInstance = axios.create({baseURL: "https://client-server-22221.onrender.com/api/v1"});
 
 export const apiConnector = (method, url, bodyData, headers, params) => {
   return axiosInstance({
