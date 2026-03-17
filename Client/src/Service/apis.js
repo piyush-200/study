@@ -1,4 +1,4 @@
-const BASE_URL = "https://client-server-22221.onrender.com"
+const BASE_URL =  "https://client-server-22221.onrender.com/api/v1"
 // AUTH ENDPOINTS
 export const endpoints = {
   SENDOTP_API: BASE_URL + "/auth/sendotp",
